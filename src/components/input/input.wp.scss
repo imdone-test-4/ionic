@@ -96,8 +96,8 @@ $text-input-wp-highlight-color-invalid:     $text-input-highlight-color-invalid 
 
 // Show the focus highlight when the input has focus
 @if ($text-input-wp-show-focus-highlight) {
-  // TODO remove all uses of input-has-focus in v4
-  // TODO remove all uses of input-has-value in v4
+  // TODO remove all uses of input-has-focus in v4 id:40 gh:41
+  // TODO remove all uses of input-has-value in v4 id:7 gh:8
   .item-wp.item-input.item-input-has-focus .text-input,
   .item-wp.item-input.input-has-focus .text-input {
     border-color: $text-input-wp-highlight-color;
