@@ -73,8 +73,8 @@ $label-ios-margin-start:       0 !default;
   transition: transform 150ms ease-in-out;
 }
 
-// TODO remove all uses of input-has-focus in v4
-// TODO remove all uses of input-has-value in v4
+// TODO remove all uses of input-has-focus in v4 id:31 gh:32
+// TODO remove all uses of input-has-value in v4 id:54 gh:55
 .item-input-has-focus .label-ios[floating],
 .input-has-focus .label-ios[floating],
 .item-input-has-value .label-ios[floating],
